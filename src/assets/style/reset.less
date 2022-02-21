@@ -1,0 +1,103 @@
+/* 
+  HTML reset
+*/
+html,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+i,
+s,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+i,
+s,
+em {
+  font-style: normal;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0 !important;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+// 公共样式
+.fbi-page-wrap {
+  position: relative;
+
+  .el-table {
+    th {
+      background-color: #f0f3fa;
+    }
+
+    th.gutter {
+      display: table-cell !important;
+    }
+
+    colgroup.gutter {
+      display: table-cell !important;
+    }
+
+    .cell {
+      word-break: normal;
+    }
+  }
+}
+
+.fbi-page-header {
+  color: #333;
+  font-size: 16px;
+}
+
+.fbi-page-content {
+  padding: 16px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.fbi-pagination {
+  margin-top: 20px;
+}
